@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "function.h"
+#include "../inc/function.h"
 
 void generate_random_numbers(int min, int max, int count) {
     int range = max - min + 1;

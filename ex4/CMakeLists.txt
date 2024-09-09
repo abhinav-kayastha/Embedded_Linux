@@ -7,11 +7,15 @@ project(
 	LANGUAGES C)
 
 add_executable(
-	random_number_generator
-	inc/function.h
+	${PROJECT_NAME}
 	src/function.c
 	src/main.c)
 
-target_compile_features(random_num_generator PRIVATE C17)
+set (CMAKE_CXX_STANDARD 17)
 
-target_compile_options(random_num_generator PRIVATE "-Wextra -Wfatal-errors -Wpedantic")
+add_compile_options(
+	-Wall
+	-Wextra 
+	-Wfatal-errors 
+	-Wpedantic
+	)
