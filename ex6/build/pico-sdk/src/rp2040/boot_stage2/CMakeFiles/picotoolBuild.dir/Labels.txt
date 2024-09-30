@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild-complete.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/home/abhinav/exercises/ex2/ex6/build/pico-sdk/src/rp2040/boot_stage2/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

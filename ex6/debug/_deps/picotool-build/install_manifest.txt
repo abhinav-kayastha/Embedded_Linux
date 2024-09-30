@@ -1,0 +1,5 @@
+/home/abhinav/exercises/ex2/ex6/debug/_deps/picotool/picotool
+/home/abhinav/exercises/ex2/ex6/debug/_deps/picotool/picotoolTargets.cmake
+/home/abhinav/exercises/ex2/ex6/debug/_deps/picotool/picotoolTargets-release.cmake
+/home/abhinav/exercises/ex2/ex6/debug/_deps/picotool/picotoolConfig.cmake
+/home/abhinav/exercises/ex2/ex6/debug/_deps/picotool/picotoolConfigVersion.cmake
