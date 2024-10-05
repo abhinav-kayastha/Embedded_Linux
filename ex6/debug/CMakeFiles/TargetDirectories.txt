@@ -40,8 +40,6 @@
 /home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/edit_cache.dir
 /home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 /home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir
-/home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir
-/home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir
 /home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir
 /home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir
 /home/abhinav/exercises/ex2/ex6/debug/pico-sdk/src/rp2040/boot_stage2/CMakeFiles/edit_cache.dir

@@ -590,8 +590,6 @@ pico-sdk/src/rp2040/boot_stage2/preinstall:
 
 # Recursive "clean" directory target.
 pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean
-pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
-pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean
 pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 pico-sdk/src/rp2040/boot_stage2/clean: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
 .PHONY : pico-sdk/src/rp2040/boot_stage2/clean
@@ -1710,7 +1708,6 @@ pico-sdk/tools/clean:
 # Target rules for target CMakeFiles/blinky.dir
 
 # All Build rule for target.
-CMakeFiles/blinky.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/all
 CMakeFiles/blinky.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blinky.dir/build.make CMakeFiles/blinky.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/blinky.dir/build.make CMakeFiles/blinky.dir/build
@@ -1719,7 +1716,7 @@ CMakeFiles/blinky.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_defaul
 
 # Build rule for subdir invocation for target.
 CMakeFiles/blinky.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 70
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 61
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/blinky.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 0
 .PHONY : CMakeFiles/blinky.dir/rule
@@ -1737,7 +1734,7 @@ CMakeFiles/blinky.dir/clean:
 # Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir
 
 # All Build rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/all
+pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abhinav/exercises/ex2/ex6/debug/CMakeFiles --progress-num=58,59 "Built target bs2_default"
@@ -1745,7 +1742,7 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all: pico-sdk/src/rp2
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/rule
@@ -1760,58 +1757,6 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean:
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default.dir/clean
 
 #=============================================================================
-# Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir
-
-# All Build rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/all:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/depend
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abhinav/exercises/ex2/ex6/debug/CMakeFiles --progress-num= "Built target picotoolForceReconfigure"
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/all
-
-# Build rule for subdir invocation for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 0
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 0
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/rule
-
-# Convenience name for target.
-picotoolForceReconfigure: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/rule
-.PHONY : picotoolForceReconfigure
-
-# clean rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/clean
-
-#=============================================================================
-# Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir
-
-# All Build rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolForceReconfigure.dir/all
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/depend
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/abhinav/exercises/ex2/ex6/debug/CMakeFiles --progress-num=63,64,65,66,67,68,69,70,71 "Built target picotoolBuild"
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/all
-
-# Build rule for subdir invocation for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 9
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 0
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/rule
-
-# Convenience name for target.
-picotoolBuild: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/rule
-.PHONY : picotoolBuild
-
-# clean rule for target.
-pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean:
-	$(MAKE) $(MAKESILENT) -f pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/build.make pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean
-.PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/picotoolBuild.dir/clean
-
-#=============================================================================
 # Target rules for target pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir
 
 # All Build rule for target.
@@ -1823,7 +1768,7 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
@@ -1849,7 +1794,7 @@ pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.di
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 13
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/abhinav/exercises/ex2/ex6/debug/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
