@@ -6,15 +6,13 @@ int main() {
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
     
-    int counter = 0;
-    int state = 0;
+    static uint counter = 0;
+    static uint state = 0;
 
     while (true) {
 	counter++;
 	state = counter % 2;
-        gpio_put(LED_PIN, 1);
-        sleep_ms(500);
-        gpio_put(LED_PIN, 0);
+        gpio_put(LED_PIN, state);
         sleep_ms(500);
     }
 }
